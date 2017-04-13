@@ -1,0 +1,44 @@
+/*Navigation*/
+.navbar {
+  padding: 1% 0 1% 9%;
+  background-color: #fff; }
+
+.navbar-brand img {
+  max-width: 80%; }
+
+/*Jumbotron de la page d'accueil */
+.jumbotron {
+  margin-top: 5%;
+  background-image: url("../images/accueil/accueil_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  background-color: #fff; }
+
+.jumbotron .container {
+  padding: 30% 0%; }
+
+.jumbotron h1 {
+  display: inline-block;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 3%;
+  font-size: 3em; }
+
+.btn-primary {
+  background-color: #EB7723;
+  border-color: #EB7723;
+  border-radius: 1px;
+  text-transform: uppercase; }
+
+.btn-primary:hover {
+  background-color: #668030;
+  border-color: #668030; }
+
+/*Styles du footer */
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 3%;
+  text-align: center; }
