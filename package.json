@@ -1,0 +1,27 @@
+{
+  "name": "cuisi-art",
+  "version": "1.0.0",
+  "description": "Site web officiel de Cuisi-Art",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theophilenz/cuisi-art.git"
+  },
+  "keywords": [
+    "Cuisine",
+    "cuisi-art",
+    "armoires"
+  ],
+  "author": "Theophile Nzungize",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theophilenz/cuisi-art/issues"
+  },
+  "homepage": "https://github.com/theophilenz/cuisi-art#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
