@@ -1,0 +1,94 @@
+@import "_variables.scss";
+body,
+html {
+    position: relative;
+    height: 100%;
+}
+
+
+/*Navigation*/
+
+.navbar {
+    padding: 1% 0 1% 9%;
+    background-color: $blanc;
+}
+
+.navbar-brand img {
+    max-width: 80%;
+}
+
+
+/* Headings */
+
+.display-4 {
+    color: $blanc;
+    background-color: $couleur-base;
+    text-align: center;
+    padding: 2% 0;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.titre-page {
+    @extend .display-4;
+    font-weight: normal;
+}
+
+
+/*Jumbotron de la page d'accueil */
+
+.jumbotron {
+    background-image: url("../images/accueil/accueil_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    background-color: $blanc;
+}
+
+.jumbotron .container {
+    padding-top: 25%;
+    padding-bottom: 25%;
+}
+
+.jumbotron h1 {
+    display: inline-block;
+    text-transform: uppercase;
+    color: $blanc;
+    background-color: $fond-transparent;
+    padding: 3%;
+    font-size: 3em;
+}
+
+.btn-primary {
+    background-color: $couleur-base;
+    border-color: $couleur-base;
+    border-radius: 1px;
+    text-transform: uppercase;
+}
+
+.btn-primary:hover {
+    background-color: $couleur-secondaire;
+    border-color: $couleur-secondaire;
+}
+
+.contenu-a-propos .lead {
+    margin-top: 2%;
+}
+
+
+/*Styles de la page réalisations */
+
+.projet {
+    margin: 1% 0;
+}
+
+
+/*Styles du footer */
+
+footer {
+    margin-top: 2%;
+    background-color: $noir;
+    color: $blanc;
+    padding: 3%;
+    text-align: center;
+}

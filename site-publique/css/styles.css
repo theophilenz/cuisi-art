@@ -1,3 +1,9 @@
+@charset "UTF-8";
+body,
+html {
+  position: relative;
+  height: 100%; }
+
 /*Navigation*/
 .navbar {
   padding: 1% 0 1% 9%;
@@ -6,9 +12,20 @@
 .navbar-brand img {
   max-width: 80%; }
 
+/* Headings */
+.display-4, .titre-page {
+  color: #fff;
+  background-color: #EB7723;
+  text-align: center;
+  padding: 2% 0;
+  text-transform: uppercase;
+  font-size: 2em; }
+
+.titre-page {
+  font-weight: normal; }
+
 /*Jumbotron de la page d'accueil */
 .jumbotron {
-  margin-top: 5%;
   background-image: url("../images/accueil/accueil_bg.jpg");
   background-repeat: no-repeat;
   background-size: contain;
@@ -16,7 +33,8 @@
   background-color: #fff; }
 
 .jumbotron .container {
-  padding: 30% 0%; }
+  padding-top: 25%;
+  padding-bottom: 25%; }
 
 .jumbotron h1 {
   display: inline-block;
@@ -36,8 +54,16 @@
   background-color: #668030;
   border-color: #668030; }
 
+.contenu-a-propos .lead {
+  margin-top: 2%; }
+
+/*Styles de la page réalisations */
+.projet {
+  margin: 1% 0; }
+
 /*Styles du footer */
 footer {
+  margin-top: 2%;
   background-color: #000;
   color: #fff;
   padding: 3%;
